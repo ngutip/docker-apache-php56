@@ -15,4 +15,4 @@ Build the image:
 `docker build --rm -t ngutip/docker-apache-php56 `
 
 Start a container with an interactive shell and port 80 published:
-`docker run -it -p 80:80 neroinc/fedora-apache-php /bin/bash`
+`docker run -it -p 80:80 ngutip/docker-apache-php56 /bin/bash`
